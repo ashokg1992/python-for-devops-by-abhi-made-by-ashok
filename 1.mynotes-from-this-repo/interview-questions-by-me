@@ -1,0 +1,17 @@
+- what are data types ? go to  day-2 doc, 
+     string, numeric(int,float), sequence(list,tuple), mapping, boolean.
+
+Q) why python is dynamically programming?
+    bcz for python , no need interpretor , it automaticlly understand what type of data it is. like if we mention a=10 , no need to declare as int a=10 , it undrsand by itself.
+    - "ashok" - it means for python  is - it is a string
+
+Q) how you  get only firrst name  in the file whihc has first and sencond names to each person?
+    - by using inbuilt funciotn 
+    string.split(" ")
+
+
+ <!-- FOR PRACTICING INBULIT FUNCTIONS , GO TO DAY-2 EXAMPLES FOLDER -->
+
+
+
+
