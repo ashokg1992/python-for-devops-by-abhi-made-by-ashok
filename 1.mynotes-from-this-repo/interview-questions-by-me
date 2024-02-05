@@ -4,6 +4,9 @@
 Q) why python is dynamically programming?
     bcz for python , no need interpretor , it automaticlly understand what type of data it is. like if we mention a=10 , no need to declare as int a=10 , it undrsand by itself.
     - "ashok" - it means for python  is - it is a string
+    - while declaring variables, we do not need to mention to the variable that  what type of  value is assigned to them , bcz it automatically undersand  , that is why it is dynamically programming.
+    in shell : var name string  ="ashok" # we  telling that ashok as string and teliing this to var name
+    in python : name = "ashok" # no need to tell
 
 Q) how you  get only firrst name  in the file whihc has first and sencond names to each person?
     - by using inbuilt funciotn 
@@ -27,5 +30,26 @@ Q)if you want to get nedagative value to positve value then what  fucntion you s
 Q) what is regular expression ?
      to ger perticular pattern in the list, we use reg expression insted of using for loop
     - read day -2 examples FOLDER
-    
 
+
+Q) how does  devops engineer use this regular expression in real time?
+    let say there is huge log file (might be it is applicaiotn log/infra log/ audit log), inside it there are bunchof errorlogs/warinng logs/, by using this reg expression we get those logs.
+    - or we can get those erros by iterateing  file  by using for loop,
+
+
+REAL TIME TASK:
+------------
+-in aws, for each reosurce it has arn (amazon resource name)
+- let day we have arn's  for IAM users, now we get the usernames  from arns. 
+- write python script  to collect arns, then by using  inbuilt fucntions ( string.split) we get data.
+- we get complte json payload, then we convert into dictionary, from dictonay we split and get data as we required
+- see day-2 examples folder.
+
+
+ <!-- in nay progaram : key-words, data types, operators , logical reasoning is imporatntat  -->
+- some of the jeywords in pythons : if,else, try, except..
+- 
+
+- try,except, finally  are error handling key words 
+
+- 
