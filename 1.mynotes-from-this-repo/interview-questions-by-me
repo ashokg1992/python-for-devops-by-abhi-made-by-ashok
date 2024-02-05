@@ -1,3 +1,11 @@
+
+REAL TIME TASK:
+-----------
+-- talk to github API, nad getting info as and when required
+- 	getting into github and fecthing issues and who crated it  .. this can be done by script
+
+ 
+
 - what are data types ? go to  day-2 doc, 
      string, numeric(int,float), sequence(list,tuple), mapping, boolean.
 
