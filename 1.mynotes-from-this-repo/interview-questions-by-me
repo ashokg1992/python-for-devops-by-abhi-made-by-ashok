@@ -13,5 +13,19 @@ Q) how you  get only firrst name  in the file whihc has first and sencond names 
  <!-- FOR PRACTICING INBULIT FUNCTIONS , GO TO DAY-2 EXAMPLES FOLDER -->
 
 
+Q) what is concatanation?
+     to add two values / stirngs is called concatanation
 
+
+Q) how you find number of characters in string or group of string?
+     byusing len  function.
+
+Q)if you want to get nedagative value to positve value then what  fucntion you se?
+     abs  # absolute funciotn
+
+
+Q) what is regular expression ?
+     to ger perticular pattern in the list, we use reg expression insted of using for loop
+
+    
 
