@@ -40,26 +40,26 @@ def name():	# defining fucntion
 # - 2. perform the required operation
 # - 3. return the output
 
-def sub (num1,num2 ):
-    s=num1 - num2
-    return s
+# def sub (num1,num2 ):
+#     s=num1 - num2
+#     return s
 
 
-def add (num1,num2 ):
-    a =num1 + num2
-    return a
+# def add (num1,num2 ):
+#     a =num1 + num2
+#     return a
 
 
-def mul (num1,num2 ):
-    m = num1 *  num2
-    return m
+# def mul (num1,num2 ):
+#     m = num1 *  num2
+#     return m
 
-print (add(5,10))
-print (sub(15,20))
-print (mul(30,40))
-#  like this by writing in moudlr way we can give with diff values  for each function 
+# print (add(5,10))
+# print (sub(15,20))
+# print (mul(30,40))
+## like this by writing in moudlr way we can give with diff values  for each function 
 
-# ====================================    # PACKAGES:   ====================================
+### ====================================    # PACKAGES:   ====================================
 
 #   COLLECTION OF MOUDLES IS PACKAGE
 # 
