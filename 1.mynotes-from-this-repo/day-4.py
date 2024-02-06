@@ -20,7 +20,7 @@ add()
 # readability
 # debugging
 
-def name():	# defining fucntion  
+# def name():	# defining fucntion  
 
 # - MODULE:
 # ------------
