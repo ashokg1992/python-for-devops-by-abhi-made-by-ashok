@@ -32,8 +32,11 @@ if operation == "add":
 # - then write function to print and get this data 
 
 import os
-print (os.getenv ("password"))
+print (os.getenv("password"))
 password = "ashok"
+
+#  ================================================================
+
 
 
 

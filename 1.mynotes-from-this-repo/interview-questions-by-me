@@ -109,3 +109,73 @@ pipinstall jira 	# it means it is installed in this project-abc envirionment spa
 - OS  module is use in one case - to read env variables
 - sys  module is used:
 - 
+
+= ============ float division ( //) ====================
+3//2 = 1  # we dont get decimals in this.
+============== - modulus: (%) =================
+- 16 % 13 = 3  in python this is moduls
+-16/13= 1.22
+-16//13 = 1
+-16%13= 3
+
+
+====================================  ================================
+
+-CONDITIONAL HANDLING:
+1.if
+2.else
+3.elif(elseif)
+
+
+====================================  ================================
+
+- list : ["a": "b": "c":]
+
+## ============= real time task =========================
+
+- to print list of all s3 buckets/ebs volumes/ec2 instances  in perticular account .
+
+Q) diff b/n LIST & TUPLE?
+     LIST - mutable
+     tuple- immutable
+  
+     LIST
+     -----------
+          - ONCE  list  is crated, it is resizable
+          - we can add no of users/list of buckets/ec2 instaces
+          - dynamic memory it has bcz data is changes everyitme
+          -["a","b"]
+
+
+
+     TUPLE:
+     -------
+          - ONCE  tuple is crated, it CAN'T be resizable
+          - if we do not want  to add/ delete , then we use this tuple.
+          - if i do not want to add admin user names by unauthorized users, then we use it.
+          - memory is fixed
+          -("a","b")
+
+Q) how to add new element to lisst?
+     - for that variable whihc is assigned to list, add "append" to that varialbe.
+
+
+## ===== slicing =================
+
+- to get data from 0 to x in the list
+- if range is exceeded, then also program is executed
+- 
+a= ["a", "b","c","d","e"]
+print(a[2:4])
+
+
+## =====  SORT  =================
+
+-ARRANGE in alpabectic order
+-
+
+
+Q) in LIST  can we store same or diff typeof data in it?
+     - we can store any type of data (string, int, float)
+
+
