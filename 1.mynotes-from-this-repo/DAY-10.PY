@@ -31,13 +31,15 @@
 # if __name__ == "__main__":
 #     main()
 
-import os
-folders= input("Enter a list of folder paths separated by spaces: ").split()  
+###     ==========================================================
 
-for folder in folders:
-    files = os.listdir(folder)
+# import os
+# folders= input("Enter a list of folder paths separated by spaces: ").split()  
+
+# for folder in folders:
+#     files = os.listdir(folder)
     
-    print("===== files in this folder:" + folder)
+#     print("===== files in this folder:" + folder)
     
-    for file in files:
-        print (file)    # this block print files in series way
+#     for file in files:
+#         print (file)    # this block print files in series way
