@@ -28,9 +28,9 @@ def name():	# defining fucntion
 # - once import a module , we need to call it.
 
 
-import calculator_new as basic_calc	## we import  tihs module in above
-basic_calc	                          # and in this line we call  that module 
-basic_calc.addition()           # it means we call only that function from that module 
+# import calculator_new as basic_calc	## we import  tihs module in above
+# basic_calc	                          # and in this line we call  that module 
+# basic_calc.addition()           # it means we call only that function from that module 
 
 # =====================================================================================
 
