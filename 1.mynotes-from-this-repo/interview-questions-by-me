@@ -179,3 +179,27 @@ Q) in LIST  can we store same or diff typeof data in it?
      - we can store any type of data (string, int, float)
 
 
+## =================  REAL TIME TASK  ==============================
+
+LIST  ALL FILES IN LIST OF FOLDERS  THAT USER PROVIDED , AND MAX SIZE OF FILE IN THAT FOLDER
+- INPUT:  given path of folder ( /tmp/)
+-OUTPUT: (files in /opt )
+
+Q) we can give inputs to program in the run time, ways?
+          -1.command line arguments
+          - env vars
+          - input method ( it executes at run time)
+
+
+Q) split function?
+     - it can convert data into a list type.
+     - if we give random folders names list, then split convert  that list  into LIST TYPE
+
+Q)    what is OS module?
+     - it interact with OS and give info.
+     - OS.LISTDIR   # IT TELL ALL FILES IN FOLDER
+     - 
+Q) exceptional handling?
+     - insted of  throwing error in program , we can skip  that error and execute reamin program, then weuse exceptional handling.
+     - we use TRY , EXCEPT  blocks for this 
+
