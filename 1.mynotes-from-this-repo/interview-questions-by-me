@@ -58,6 +58,54 @@ REAL TIME TASK:
 - some of the jeywords in pythons : if,else, try, except..
 - 
 
-- try,except, finally  are error handling key words 
+- try,except, finally :  are error handling key words 
 
+Q) what are modules  you used in python?
+      boto3
+
+
+REAL TIME TASK IN PYTHON:
+-----------------
+- in org, scripts can be written in python by using aws sdk and cdk, cft, tf
+- write scripts for s3 bucket(  accessing.. etc) 
+- write the script to  crating jira  ticket for the issues
+- to list out issues and pull requests in repository , we write functions for this.
+- written the modules to connecting AWS RESOURCES, GITHUB API, JIRA API, HTTPS REQUEST API.. 
+- FOR THE ABOVE      aws(boto3 mocule ), jira(jira mdoule), github(github module), http (request mdule) used
+
+
+=================================== PYPI:  =================================
+
+ - PYTHON PACKAGE INDEX
+ - PYPI is central repository to store packages like docker hub, whether it can be private or public.
+ - we write packages and stored them in private repository or public
+ -  by using pip , we can download anuthing form PIPY .
+ - pip install boto3
+ - pip install github
+ - pip install jira
+ - somoe packages are : numpy, panda
+ - pip list    # to show all packages that we have in termianal 
+ - functions -> modules -> packages  # this is order  
+ - python get-pip.py     # to install pip  in linux 
+ - py get-pip.py     # to install pip  in windows 
+
+=========================  VIRTUAL ENVIRONMENT =====================================
+
+
+pip install virtualenv 	# to install sepeaate environment  for the different projects in same machine
+python -m  venv project-abc	# -m : mdoule ; venv: virtual env ; by this command , it create folder for this project
+source project-abc/bin/activate 	# to go to this project folder
+pipinstall jira 	# it means it is installed in this project-abc envirionment space folder , not in other folder env space.
+- pip list | grep jira
+- # like this we can install different version of jira in different env space/ project, so that it can not affect any project.
+- deactivate	# to get out of this env space
+
+
+ 
+========================  VIRTUAL ENVIRONMENT =====================================
+
+
+========================  ========================
+- OS  module is use in one case - to read env variables
+- sys  module is used:
 - 
