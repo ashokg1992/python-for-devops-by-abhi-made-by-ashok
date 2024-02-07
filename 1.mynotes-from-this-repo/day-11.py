@@ -43,4 +43,5 @@
 
 
 import requests
-    
+response = requests.get("pi.github.com/repos/org_name/accoount_name/pulls")
+print(response)
