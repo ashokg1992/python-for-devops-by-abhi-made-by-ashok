@@ -1,4 +1,29 @@
 
+
+### ===============================================
+
+- TO interact with k8 , CLIis- kubectl
+- to interact with aws , CLI  is- aws ( aws s3 ls)
+- like this we can interact with  CLIs .
+
+
+- we can also interact with  APIs  to get info.
+-  in normal , by URL just paste in browser, then we get data
+- but in python we can get data same as above by using " requests.get " 
+
+# to talk with any resource, we do following these:
+     - identify the requried module, requets method
+     -  API URL 
+     - data manipulation
+     -print
+
+
+### ===============================================
+-   string
+- group of strings  called  list
+- key:value is called dictionary
+
+
 REAL TIME TASK:
 -----------
 -- talk to github API, nad getting info as and when required
@@ -203,3 +228,16 @@ Q) exceptional handling?
      - insted of  throwing error in program , we can skip  that error and execute reamin program, then weuse exceptional handling.
      - we use TRY , EXCEPT  blocks for this 
 
+
+### ================== DICTIONARY ====================
+- single dictionary 
+- multiple dictionary : if we want to use multiple dictionary , dictionaries are used in list 
+
+students_info= [                # list 
+    {     # dictionary
+        
+    },
+    {
+          # dictionary
+    }
+]
