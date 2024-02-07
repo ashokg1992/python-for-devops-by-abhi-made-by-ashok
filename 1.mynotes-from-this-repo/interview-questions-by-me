@@ -241,3 +241,39 @@ students_info= [                # list
           # dictionary
     }
 ]
+
+
+### ========== SETS{ }  =========================
+
+     -- sets are represnting by using symbol : {  } 
+
+###  -- REAL TIME TASK OF SETS: ================
+     --  while creating  s3 buckets, buckets  names are to be identical
+     -- in this case , we use sets, and prevent duplicate names at the time of crating buckets.
+     -- 
+
+### ====================== FILE OPERATIONS =================
+
+    --   REAL TIME TASK  OF FILE OPERATION :
+    ---------------------------------------
+          -- TO UPDATE  server configuation when any metrics met.
+          --to update application properties file, then we  use file operations
+          -- to update any file , we use file operations
+--- file operations:
+          -- 1. read operations
+          --2.   write operations
+
+Q) to open a file , whihc function you ses ?
+     - " with  open ("path", "read/write")
+
+
+------------------------
+-- with open ("/opt/tmp", "r")   # to read mode for a file
+--rules for while doing file operations:
+          --  read file by opening it
+          -- read data and store data to a variable
+          --now enable write mode to  that file to update data
+          -- now write data as our wish
+          --
+
+
