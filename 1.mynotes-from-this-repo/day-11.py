@@ -42,6 +42,30 @@
 # "api.github.com/repos/gashok1992"
 
 
-import requests
-response = requests.get("https://api.github.com/repos/org_name/accoount_name/pulls")
-print(response)
+# import requests
+# response = requests.get("https://api.github.com/repos/kubernetes/kubernetes/pulls")
+# print(response) # it prints above api request information
+# print(response.status_code) # it prints status code of above api requests, if it success , code =200, fail=400, aunthenticaionfailed=403
+
+
+### ========================= 
+
+
+# import requests
+# response = requests.get("https://api.github.com/repos/kubernetes/kubernetes/pulls")
+# complete_details = response.json()
+# print(complete_details[0]["id"])        # it means we get in the above json data, we get first user [0] of id
+# print(complete_details[0]["user"] ["login"]) 
+
+### =================================================
+
+# import requests
+# response = requests.get("https://api.github.com/repos/kubernetes/kubernetes/pulls")
+# complete_details = response.json()
+# for i in range(len(complete_details)):  # it prints all users names 
+    
+#     print(complete_details[i]["user"] ["login"]) 
+
+
+### =========================== SET ================================
+
